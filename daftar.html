@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hiku Web adalah tempat untuk belajar HTML dan CSS">
+    <meta name="keywords" content="belajar html, belajar html dan css, belajar css, membuat website">
+    <meta name="author" content="Hikmah Maulana">
+    <meta http-equiv="refresh" content="3600">
+
+    <title>Hiku Personal Website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="cv-hiku.pdf">Download CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="text-right"><a href="daftar.html">Daftar</a></li>   
+        </ul>
+    </nav>
+    <form action="#" method="post" class="container">
+        <fieldset class="dis-daftar">
+                <legend><h1>Pendaftaran</h1></legend>
+                <table class="table-daftar">
+                    <tr>
+                        <td>
+                            <label>Nama: </label>
+                        </td>
+                        <td>
+                            <input class="inp-daftar" type="text" name="nama" placeholder="Nama lengkap...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Username: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="username" placeholder="Username...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email: </label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" placeholder="Alamat email...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Password: </label>
+
+                        </td>
+                        <td>
+                            <input type="password" name="password" placeholder="Password...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Umur: </label>
+                        </td>
+                        <td>
+                            <input type="number" name="umur" min="10" max="90">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Tanggal Lahir: </label>
+
+                        </td>
+                        <td>
+                            <input type="date" name="tanggal_lahir">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Jenis Kelamin: </label>
+
+                        </td>
+                        <td>
+                            <label><input type="radio" name="kelamin" value="laki-laki"> Laki-laki</label>
+                            <label><input type="radio" name="kelamin" value="perempuan"> Perempuan</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Agama: </label>
+                        </td>
+                        <td>
+                            <select name="agama">
+                                <option value="islam">Islam</option>
+                                <option value="kristen">Kristen</option>
+                                <option value="hindu">Hindu</option>
+                                <option value="budha">Budha</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Biografi: </label>
+                        </td>
+                        <td>
+                            <textarea name="biografi" cols="30" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Foto: </label>
+
+                        </td>
+                        <td>
+                            <input type="file" name="gambar" accept="image/*">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>CV/Portofolio: </label>
+
+                        </td>
+                        <td>
+                            <input type="file" name="cv">
+                        </td>
+                    </tr>
+                </table>
+                <p>
+                    <input type="checkbox" name="checkbox">
+                    <label>Dengan ini anda setuju dengan kebijakan privasi kami</label>
+                </p>
+                <p>
+                    <input class="button" type="submit" name="submit" value="Kirim">
+                </p>
+
+        </fieldset>
+    </form>
+    <footer>
+        <p>Copyright &COPY; 2021 Hikmah Maulana</p>
+    </footer>
+</body>
+</html>
